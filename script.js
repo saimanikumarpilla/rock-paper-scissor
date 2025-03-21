@@ -21,7 +21,7 @@ bt1.addEventListener("click",()=>{
         op.innerText="your input and computers input is same so it's tie";
 }
     else if(computerPick()=="paper"){
-        op.innerText="your input is rock and computer input is paper so lost this time";
+        op.innerText="your input is rock and computer input is paper so you lost this time";
 }
     else if(computerPick()=="secissor"){
         op.innerText="your input is rock and computer input is secissor so win this game";
@@ -40,7 +40,7 @@ bt2.addEventListener("click",()=>{
 })
 bt3.addEventListener("click",()=>{
     if(computerPick()=="rock"){
-        op.innerText="Your input is secissor and computer input output is rock so you lost this time";
+        op.innerText="Your input is secissor and computer input is rock so you lost this time";
     }
     else if(computerPick()=="paper"){
         op.innerText="your input is secissor and computer input is paper so you won this game";
